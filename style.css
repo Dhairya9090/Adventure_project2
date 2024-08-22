@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar h3{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+#navbar i{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+#navbar h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-image: cover;
+}
+#navbar img{
+    position: absolute;
+    top: 7%;
+    left: 49%;
+    opacity: 50%;
+    height: 85px;
+    width: 190px;
+}
+#navbar button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    background-color: white;
+}
+#btn2{
+    color: white;
+    background-color: rgb(21, 12, 70) !important;
+    border: none !important;
+}
+#hero{
+    font-size: 150px;
+    text-transform: uppercase;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 420px;
+    width: 370px;
+    object-position: top;
+    object-fit: cover;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10%;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-0deg);
+}
+#btm-left{
+    position: absolute;
+    bottom:5%;
+    left:5%;
+    font-size: 17px;
+}
+.ri-arrow-down-line{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+.ri-instagram-line{
+    position: absolute;
+    bottom:5%;
+    right:5%;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+.ri-facebook-fill{
+    position: absolute;
+    bottom:5%;
+    right:6.5%;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+#btm-right{
+    position: absolute;
+    bottom:3%;
+    right:5%;
+    font-size: 17px;
+}
